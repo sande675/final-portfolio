@@ -1,7 +1,7 @@
-# Final Portfolio CSS - MI-349 Lab 4
+# Final Portfolio CSS - MI-349 Lab 5
 
-The skeleton for what will end up being my final portfolio.
-The most recent commit added a CSS file for Lab 4.  
+The in-progress version for what will end up being my final portfolio.
+The most recent commit added a CSS file for Lab 5.  
 
 ## The Purpose of This Page
 
@@ -11,13 +11,15 @@ To serve as a comprehensive page for displaying all of my professional and caree
 
 This webpage uses a variety of different HTML elements, including but not limited to lists, sections, articles, etc. It also makes use of semantic HTML in order to make the structure and content as clear as possible. 
 
-In addition, CSS is used to properly style and lay out the page. 
+In addition, CSS is used to properly style and lay out the page, making use of media queries, gridbox, and flexbox in order to ensure visually pleasing layout and proper adjustments for screen size.
+
 ## Development Log
 
 Commit 1: Established initial file
 Commit 2: Established structure of page
 Commit 3: Finalized content and structure, final touches
 Commit 4: Added CSS
+Commit 5: Added layouts with responsive breakpoints
 
 ## Credits
 
