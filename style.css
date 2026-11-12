@@ -20,6 +20,20 @@
     --font-body: "Inter", Arial, sans-serif;
 }
 
+[data-theme="light"] {
+    color-scheme: light;
+    --color-bg: #f3f7f4;
+    --color-surface: #ffffff;
+    --color-surface-alt: #e6eee9;
+    --color-text: #121a16;
+    --color-muted: #4a5f54;
+    --color-accent: #3d52d5;
+    --color-accent-hover: #2a3cb0;
+    --color-on-accent: #ffffff;
+    --color-border: #a9bcb0;
+    --glow: 0 0 16px rgba(61, 82, 213);
+}
+
 /* === Base === */
 * {
     box-sizing: border-box;
@@ -148,7 +162,7 @@ h2 {
 h3 {
     font-size: 1.2rem;
 }
-/* === Links === */
+/* === Links & Buttons === */
 a {
     color: var(--color-accent);
 }
@@ -160,7 +174,6 @@ a:hover {
 a[target="_blank"] {
     font-weight: 600;
 }
-
 /* === Projects === */
 .project-grid {
     display: grid;

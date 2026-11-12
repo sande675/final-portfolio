@@ -17,6 +17,7 @@
       content="portfolio, HTML, information science, web development"
     >
     <meta name="theme-color" content="#1f3a5f" >
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -46,6 +47,7 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      <button id="themeToggle" aria-label="Theme toggle">☀️</button>
     </header>
     <main id="main-content" tabindex="-1">
       <section id="intro" aria-labelledby="intro-heading">
@@ -107,7 +109,7 @@
         </div>
       </section>
       <hr>
-      <section id="projects" aria-labelledby="projects-heading">
+      <section id="projects" aria-labelledby="projects-heading" data-aos="fade-up" data-aos-delay="100">
         <h2 id="projects-heading">Projects</h2>
         <p>A selection of things I've built or am currently working on</p>
         <div class="project-grid">
@@ -196,7 +198,7 @@
         </div>
       </section>
       <hr>
-      <section id="contact" aria-labelledby="contact-heading">
+      <section id="contact" aria-labelledby="contact-heading" data-aos="fade-up" data-aos-delay="100">
         <h2 id="contact-heading">Contact</h2>
         <p>Interested in hearing more or reaching out?</p>
         <address id="contact-info">
@@ -275,5 +277,14 @@
         </ul>
       </nav>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="utilities.js"></script>
+    <script>
+  AOS.init({
+    duration: 800,
+    once: true,
+    offset: 80
+  });
+</script>
   </body>
 </html>
