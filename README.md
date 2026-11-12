@@ -1,4 +1,4 @@
-# Final Portfolio CSS 
+# Final Portfolio
 
 The in-progress version for what will end up being my final portfolio.
 
